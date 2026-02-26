@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="JSEnhancedCRUD.UnitTests/JSEnhancedCRUD.UnitTests.csproj" />
   <Project Path="JSEnhancedCRUD/JSEnhancedCRUD.csproj" />
 </Solution>
