@@ -16,7 +16,7 @@ public class Product
 	/// The customer facing name of the product
 	/// </summary>
 	[StringLength(30, MinimumLength = 1, ErrorMessage = "Name must be between 1 and 30 characters.")]
-	[RegularExpression("^[a-zA-Z-0-9 ]*$", ErrorMessage = "Name must be alphanumeric characters and spaces only.")]
+	[RegularExpression("^(?=.*[a-zA-Z0-9 ])[a-zA-Z0-9]+$", ErrorMessage = "Name must be alphanumeric characters and spaces only.")]
 	public required string Name { get; set; }
 
 	/// <summary>
